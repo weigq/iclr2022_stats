@@ -19,7 +19,7 @@ with open('README.md', 'a') as f:
         std_score = np.std(scores)
         avg_score = item['avg_score']
 
-        _str = f"| {i} | {avg_score:.2f} | [{title}]({url}) | {scores} | {std_score:.2f} | |\n"
+        _str = f"| {i+1} | {avg_score:.2f} | [{title}]({url}) | {scores} | {std_score:.2f} | |\n"
         f.write(_str)
 
     # ack

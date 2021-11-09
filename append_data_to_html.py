@@ -23,7 +23,8 @@ with open('iclr2022_stats.html', 'w') as f:
         f"</body>"
         f"</html>"
         f"<span style=\"font-size: 22px\">Note: this data is collected at 2021-11-09 17:11:59 </span>"
-        f"<a href=\"\" style=\"font-size: 22px; cursor: pointer\">More data </a>"
+        f"<br><a href=\"\" style=\"font-size: 22px; cursor: pointer\">More data </a>"
+        f"<br><img src=\"images/stats_bar.png\" width=\"900px\">"
         f"<table>"
     )
     f.write(
@@ -38,9 +39,9 @@ with open('iclr2022_stats.html', 'w') as f:
         std_score = np.std(scores)
         avg_score = item['avg_score']
 
-        _str = f"<tr><td>{i}</td><td>{avg_score:.2f}</td>" \
+        _str = f"<tr><td>{i+1}</td><td>{avg_score:.2f}</td>" \
                f"<td><a href='{url}'>{title}</a></td>" \
-               f"<td>{scores}</td><td>{std_score}</td><td></td></tr>"
+               f"<td>{scores}</td><td>{std_score:.2f}</td><td></td></tr>"
         f.write(_str)
 
     f.write(

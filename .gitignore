@@ -5,3 +5,4 @@ chromedriver_win32/
 !/assets/data.zip
 __pycache__/
 /assets/data/
+.DS_Store
