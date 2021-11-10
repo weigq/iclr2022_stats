@@ -11,6 +11,8 @@
 
 `!`: This data is collected at `2021-11-09 17:11:59 (UTC)`. Note that the some submissions may be withdrawn after this time.
 
+`!`: Only part of all data are shown here due to the maximum characters limitation. More data can be found [here](https://guoqiangwei.xyz/htmls/iclr2022_stats.html) online.
+
 
 | Rank | Average Rating | Title | Ratings | Variance | Decision |
 | --- | --- | --- | --- | --- | --- |
