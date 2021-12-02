@@ -180,7 +180,7 @@ th:is(.th-title) {
 }
 
 th:is(.th-rats) {
-	width: 150px;
+	width: 135px;
 }
 
 th:is(.th-var) {
@@ -254,10 +254,14 @@ table:is(.sub-table) td {
 
 table:is(.sub-table) td:is(.r1) {
 	background-color: rgba(255, 158, 120, 0.19);
+	padding-left: 32px;
+	text-align: left;
 }
 
 table:is(.sub-table) td:is(.r2) {
 	background-color: rgba(252, 128, 77, 0.4);
+	padding-left: 32px;
+	text-align: left;
 }
 
 a {
