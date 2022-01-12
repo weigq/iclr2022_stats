@@ -4,10 +4,11 @@
     <meta charset='UTF-8'>
     <title>ICLR2022 Statistics</title>
     <link rel="preload" href='web_src/noto_sans.min.css' as='style'>
-    <link rel="preload" href='web_src/style.css' as='style'>
+    <link rel="preload" href='web_src/style.min.css' as='style'>
+    <link rel="preload" href="web_src/tablesort.min.js" as='script'>
+    <link rel="preload" href="web_src/stats.js" as='script'>
     <link rel="stylesheet" href="web_src/noto_sans.min.css">
-    <link rel="stylesheet" href="web_src/style.css">
-    <link rel="stylesheet" href="../iclr_stat/web_src/style.css">
+    <link rel="stylesheet" href="web_src/style.min.css">
 </head>
 <body>
 
@@ -42,11 +43,11 @@
         </li>
         <li>
             <a href="images/stats_bar.png" target="_blank">Rating distribution @11/09/2021</a><br>
-<!--            <a href="images/stats_bar.png"><img src="images/stats_bar.png" width="700px" style="margin-left: -30px"></a>-->
+            <!--            <a href="images/stats_bar.png"><img src="images/stats_bar.png" width="700px" style="margin-left: -30px"></a>-->
         </li>
         <li>
             <a href="images/stats_bar_1116.png" target="_blank">Rating distribution @11/16/2021</a><br>
-<!--            <a href="images/stats_bar_1116.png"><img src="images/stats_bar_1116.png" width="700px" style="margin-left: -30px"></a>-->
+            <!--            <a href="images/stats_bar_1116.png"><img src="images/stats_bar_1116.png" width="700px" style="margin-left: -30px"></a>-->
         </li>
         <li>
             <a href="images/stats_bar_1201.png" target="_blank">Rating distribution @12/01/2021</a><br>
@@ -139,8 +140,8 @@
 </table>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<script src='web_src/tablesort.min.js'></script>
-<script src='web_src/stats.js'></script>
+<script src='web_src/tablesort.min.js' defer></script>
+<script src='web_src/stats.js' defer></script>
 
 </body>
 </html>
