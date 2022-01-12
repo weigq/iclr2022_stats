@@ -3,9 +3,13 @@
 <head>
     <meta charset='UTF-8'>
     <title>ICLR2022 Statistics</title>
-    <link href='web_src/style.css' rel='stylesheet'>
-    <link href='web_src/noto_sans.css' rel='stylesheet'>
-    <link href='web_src/fontawesome-5.15.4/css/all.min.css' rel='stylesheet'>
+    <link rel="preload" href='web_src/noto_sans.min.css' as='style'>
+    <link rel="preload" href='web_src/style.css' as='style'>
+    <link rel="preload" href="web_src/tablesort.min.js" as='script'>
+    <link rel="preload" href="web_src/stats.js" as='script'>
+    <link rel="stylesheet" href="web_src/noto_sans.min.css">
+    <link rel="stylesheet" href="web_src/style.css">
+    <link rel="stylesheet" href="../iclr_stat/web_src/style.css">
 </head>
 <body>
 
@@ -14,26 +18,41 @@
 </div>
 
 <span id="forkongithub">
-    <a href="https://github.com/weigq/iclr2022_stats">Fork me on <i class="fab fa-github"></i>
+    <a href="https://github.com/weigq/iclr2022_stats">Github
     </a>
 </span>
 
 <div class="note">
     <ul>
         <li>
-            <span>R1</span>: rating @11/09/2021
+            The data will be updated after the final decisions @<strong>01/24/2022</strong>
         </li>
         <li>
-            <span>R2</span>: rating @11/26/2021
+            <span class="bg">3328</span> submissions @11/09/2021 -> <span class="bg">2832</span> submissions @<strong>12/01/2021</strong>
         </li>
         <li>
-            <span>ΔR=R2-R1</span>: rating difference
+            <span class="bg">R1</span>: rating @ 11/09/2021
         </li>
         <li>
-            <span>&#x1F44D;</span>: final decision
+            <span class="bg">R2</span>: rating @ 12/01/2021
         </li>
         <li>
-            <span>466</span>: withdrawn submissions (<span>3328</span>@11/09/2021 -> <span>2862</span> @11/26/2021)
+            <span class="bg">ΔR=R2-R1</span>: rating difference
+        </li>
+        <li>
+            <span class="bg">&#x1F44D;</span>: final decision
+        </li>
+        <li>
+            <a href="images/stats_bar.png" target="_blank">Rating distribution @11/09/2021</a><br>
+            <!--            <a href="images/stats_bar.png"><img src="images/stats_bar.png" width="700px" style="margin-left: -30px"></a>-->
+        </li>
+        <li>
+            <a href="images/stats_bar_1116.png" target="_blank">Rating distribution @11/16/2021</a><br>
+            <!--            <a href="images/stats_bar_1116.png"><img src="images/stats_bar_1116.png" width="700px" style="margin-left: -30px"></a>-->
+        </li>
+        <li>
+            <a href="images/stats_bar_1201.png" target="_blank">Rating distribution @12/01/2021</a><br>
+            <a href="images/stats_bar_1201.png" target="_blank"><img src="images/stats_bar_1201.png" width="700px" style="margin-left: -30px"></a>
         </li>
     </ul>
 </div>
@@ -2984,8 +3003,8 @@ k
     </tbody>
 </table>
 
-<script src='web_src/tablesort.min.js'></script>
-<script src='web_src/stats.js'></script>
+<script src='web_src/tablesort.min.js' defer></script>
+<script src='web_src/stats.js' defer></script>
 
 </body>
 </html>

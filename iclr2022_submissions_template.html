@@ -3,9 +3,11 @@
 <head>
     <meta charset='UTF-8'>
     <title>ICLR2022 Statistics</title>
-    <link href='web_src/style.css' rel='stylesheet'>
-    <link href='web_src/noto_sans.css' rel='stylesheet'>
-    <link href='web_src/fontawesome-5.15.4/css/all.min.css' rel='stylesheet'>
+    <link rel="preload" href='web_src/noto_sans.min.css' as='style'>
+    <link rel="preload" href='web_src/style.css' as='style'>
+    <link rel="stylesheet" href="web_src/noto_sans.min.css">
+    <link rel="stylesheet" href="web_src/style.css">
+    <link rel="stylesheet" href="../iclr_stat/web_src/style.css">
 </head>
 <body>
 
@@ -14,26 +16,41 @@
 </div>
 
 <span id="forkongithub">
-    <a href="https://github.com/weigq/iclr2022_stats">Fork me on <i class="fab fa-github"></i>
+    <a href="https://github.com/weigq/iclr2022_stats">Github
     </a>
 </span>
 
 <div class="note">
     <ul>
         <li>
-            <span>R1</span>: rating @ 11/09/2021
+            The data will be updated after the final decisions @<strong>01/24/2022</strong>
         </li>
         <li>
-            <span>R2</span>: rating @ 11/26/2021
+            <span class="bg">3328</span> submissions @11/09/2021 -> <span class="bg">2832</span> submissions @<strong>12/01/2021</strong>
         </li>
         <li>
-            <span>ΔR=R2-R1</span>: rating difference
+            <span class="bg">R1</span>: rating @ 11/09/2021
         </li>
         <li>
-            <span>&#x1F44D;</span>: final decision
+            <span class="bg">R2</span>: rating @ 12/01/2021
         </li>
         <li>
-            <span>3328</span> @11/09/2021 -> <span>2862</span> @11/26/2021
+            <span class="bg">ΔR=R2-R1</span>: rating difference
+        </li>
+        <li>
+            <span class="bg">&#x1F44D;</span>: final decision
+        </li>
+        <li>
+            <a href="images/stats_bar.png" target="_blank">Rating distribution @11/09/2021</a><br>
+<!--            <a href="images/stats_bar.png"><img src="images/stats_bar.png" width="700px" style="margin-left: -30px"></a>-->
+        </li>
+        <li>
+            <a href="images/stats_bar_1116.png" target="_blank">Rating distribution @11/16/2021</a><br>
+<!--            <a href="images/stats_bar_1116.png"><img src="images/stats_bar_1116.png" width="700px" style="margin-left: -30px"></a>-->
+        </li>
+        <li>
+            <a href="images/stats_bar_1201.png" target="_blank">Rating distribution @12/01/2021</a><br>
+            <a href="images/stats_bar_1201.png" target="_blank"><img src="images/stats_bar_1201.png" width="700px" style="margin-left: -30px"></a>
         </li>
     </ul>
 </div>
@@ -76,10 +93,52 @@
 <!--            <td>Poster</td>-->
 <!--        </tr>-->
     <!-- start here -->
+    <tr><td>1</td><td class='td-left'><a href='https://openreview.net/forum?id=b-ny3x071E5'> Bootstrapped Meta-Learning</a></td><td>8.00</td><td>9.00</td><td data-sort='6.00'>1.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 8, 8</td></tr><tr><td class='r2'>10, 8, 10, 8</td></tr></table></td><td></td></tr>
+    <tr><td>2</td><td class='td-left'><a href='https://openreview.net/forum?id=Dl4LetuLdyK'> A Fine-Grained Analysis on Distribution Shift</a></td><td>6.67</td><td>8.67</td><td data-sort='7.00'>2.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>6, 8, 6</td></tr><tr><td class='r2'>8, 10, 8</td></tr></table></td><td></td></tr>
+    <tr><td>3</td><td class='td-left'><a href='https://openreview.net/forum?id=oDFvtxzPOx'> Self-Supervision Enhanced Feature Selection with Correlated Gates</a></td><td>8.00</td><td>8.67</td><td data-sort='5.67'>0.67</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>10, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>4</td><td class='td-left'><a href='https://openreview.net/forum?id=8c50f-DoWAu'> Diffusion-Based Voice Conversion with Fast Maximum Likelihood Sampling Scheme</a></td><td>7.67</td><td>8.67</td><td data-sort='6.00'>1.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>5, 8, 10</td></tr><tr><td class='r2'>8, 8, 10</td></tr></table></td><td></td></tr>
+    <tr><td>5</td><td class='td-left'><a href='https://openreview.net/forum?id=CzceR82CYc'> Score-Based Generative Modeling with Critically-Damped Langevin Diffusion</a></td><td>8.00</td><td>8.50</td><td data-sort='5.50'>0.50</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>6, 8, 10, 8</td></tr><tr><td class='r2'>8, 8, 10, 8</td></tr></table></td><td></td></tr>
+    <tr><td>6</td><td class='td-left'><a href='https://openreview.net/forum?id=iRCUlgmdfHJ'> DISCOVERING AND EXPLAINING THE REPRESENTATION BOTTLENECK OF DNNS</a></td><td>7.25</td><td>8.50</td><td data-sort='6.25'>1.25</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 5, 8</td></tr><tr><td class='r2'>8, 10, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>7</td><td class='td-left'><a href='https://openreview.net/forum?id=7UmjRGzp-A'> Understanding over-squashing and bottlenecks on graphs via curvature</a></td><td>7.00</td><td>8.50</td><td data-sort='6.50'>1.50</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>6, 6, 8, 8</td></tr><tr><td class='r2'>8, 8, 10, 8</td></tr></table></td><td></td></tr>
+    <tr><td>8</td><td class='td-left'><a href='https://openreview.net/forum?id=hR_SMu8cxCV'> Scaling Laws for Neural Machine Translation</a></td><td>7.50</td><td>8.50</td><td data-sort='6.00'>1.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 6, 10, 6</td></tr><tr><td class='r2'>8, 8, 10, 8</td></tr></table></td><td></td></tr>
+    <tr><td>9</td><td class='td-left'><a href='https://openreview.net/forum?id=KB5onONJIAU'> Comparing Distributions by Measuring Differences that Affect Decision Making</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>10</td><td class='td-left'><a href='https://openreview.net/forum?id=6Tk2noBdvxt'> Programmatic Reinforcement Learning without Oracles</a></td><td>6.33</td><td>8.00</td><td data-sort='6.67'>1.67</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>6, 8, 5</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>11</td><td class='td-left'><a href='https://openreview.net/forum?id=siCt4xZn5Ve'> What Happens after SGD Reaches Zero Loss? --A Mathematical Framework</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 6, 8, 10</td></tr><tr><td class='r2'>8, 6, 8, 10</td></tr></table></td><td></td></tr>
+    <tr><td>12</td><td class='td-left'><a href='https://openreview.net/forum?id=8H5bpVwvt5'> AdaRL: What, Where, and How to Adapt in Transfer Reinforcement Learning</a></td><td>7.50</td><td>8.00</td><td data-sort='5.50'>0.50</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 6, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>13</td><td class='td-left'><a href='https://openreview.net/forum?id=l4IHywGq6a'> Data-Efficient Graph Grammar Learning for Molecular Generation</a></td><td>7.50</td><td>8.00</td><td data-sort='5.50'>0.50</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 6, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>14</td><td class='td-left'><a href='https://openreview.net/forum?id=LI2bhrE_2A'> Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>15</td><td class='td-left'><a href='https://openreview.net/forum?id=tYRrOdSnVUy'> Non-Transferable Learning: A New Approach for Model Ownership Verification and Applicability Authorization</a></td><td>7.33</td><td>8.00</td><td data-sort='5.67'>0.67</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>6, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>16</td><td class='td-left'><a href='https://openreview.net/forum?id=uYLFoz1vlAC'> Efficiently Modeling Long Sequences with Structured State Spaces</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>17</td><td class='td-left'><a href='https://openreview.net/forum?id=WvOGCEAQhxl'> Assessing Generalization of SGD via Disagreement</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>18</td><td class='td-left'><a href='https://openreview.net/forum?id=GQjaI9mLet'> Independent SE(3)-Equivariant Models for End-to-End Rigid Protein Docking</a></td><td>6.00</td><td>8.00</td><td data-sort='7.00'>2.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 5, 5</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>19</td><td class='td-left'><a href='https://openreview.net/forum?id=iMH1e5k7n3L'> Spike-inspired rank coding for fast and accurate recurrent neural networks</a></td><td>6.33</td><td>8.00</td><td data-sort='6.67'>1.67</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 5, 6</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>20</td><td class='td-left'><a href='https://openreview.net/forum?id=iMSjopcOn0p'> MT3: Multi-Task Multitrack Music Transcription</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>21</td><td class='td-left'><a href='https://openreview.net/forum?id=-70L8lpp9DF'> Hyperparameter Tuning with Renyi Differential Privacy</a></td><td>7.00</td><td>8.00</td><td data-sort='6.00'>1.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 6, 6, 8</td></tr><tr><td class='r2'>8, 6, 8, 10</td></tr></table></td><td></td></tr>
+    <tr><td>22</td><td class='td-left'><a href='https://openreview.net/forum?id=UseMOjWENv'> MIDI-DDSP: Detailed Control of Musical Performance via Hierarchical Modeling</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>23</td><td class='td-left'><a href='https://openreview.net/forum?id=N0n_QyQ5lBF'> Unsupervised Vision-Language Grammar Induction with Shared Structure Modeling</a></td><td>7.00</td><td>8.00</td><td data-sort='6.00'>1.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>5, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>24</td><td class='td-left'><a href='https://openreview.net/forum?id=RJkAHKp7kNZ'> Vision-Based Manipulators Need to Also See from Their Hands</a></td><td>7.33</td><td>8.00</td><td data-sort='5.67'>0.67</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 6, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>25</td><td class='td-left'><a href='https://openreview.net/forum?id=gEZrGCozdqR'> Finetuned Language Models are Zero-Shot Learners</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>26</td><td class='td-left'><a href='https://openreview.net/forum?id=lnEaqbTJIRz'> The Inductive Bias of In-Context Learning: Rethinking Pretraining Example Design</a></td><td>6.60</td><td>8.00</td><td data-sort='6.40'>1.40</td><td data-sort='5'><table class='sub-table'><tr><td class='r1'>6, 6, 5, 8, 8</td></tr><tr><td class='r2'>8, 8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>27</td><td class='td-left'><a href='https://openreview.net/forum?id=0RDcd5Axok'> Towards a Unified View of Parameter-Efficient Transfer Learning</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>10, 8, 6</td></tr><tr><td class='r2'>10, 8, 6</td></tr></table></td><td></td></tr>
+    <tr><td>28</td><td class='td-left'><a href='https://openreview.net/forum?id=-HSOjDPfhBJ'> PER-ETD: A Polynomially Efficient Emphatic Temporal Difference Learning Method</a></td><td>7.00</td><td>8.00</td><td data-sort='6.00'>1.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>6, 8, 6, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>29</td><td class='td-left'><a href='https://openreview.net/forum?id=JSR-YDImK95'> Path Auxiliary Proposal for MCMC in Discrete Space</a></td><td>5.25</td><td>8.00</td><td data-sort='7.75'>2.75</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>1, 6, 6, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>30</td><td class='td-left'><a href='https://openreview.net/forum?id=wv6g8fWLX2q'> TAMP-S2GCNets: Coupling Time-Aware Multipersistence Knowledge Representation with Spatio-Supra Graph Convolutional Networks for Time-Series Forecasting</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>31</td><td class='td-left'><a href='https://openreview.net/forum?id=5FUq05QRc5b'> Understanding Latent Correlation-Based Multiview Learning and Self-Supervision: An Identifiability Perspective</a></td><td>6.67</td><td>8.00</td><td data-sort='6.33'>1.33</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>6, 8, 6</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>32</td><td class='td-left'><a href='https://openreview.net/forum?id=KBQP4A_J1K'> Adaptive Control Flow in Transformers Improves Systematic Generalization</a></td><td>6.67</td><td>8.00</td><td data-sort='6.33'>1.33</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>6, 8, 6</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>33</td><td class='td-left'><a href='https://openreview.net/forum?id=LdlwbBP2mlq'> Minibatch vs Local SGD with Shuffling: Tight Convergence Bounds and Beyond</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>34</td><td class='td-left'><a href='https://openreview.net/forum?id=BB4e8Atc1eR'> Scalable Sampling for Nonsymmetric Determinantal Point Processes</a></td><td>7.50</td><td>8.00</td><td data-sort='5.50'>0.50</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 6, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>35</td><td class='td-left'><a href='https://openreview.net/forum?id=EhYjZy6e1gJ'> Contrastive Label Disambiguation for Partial Label Learning</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>36</td><td class='td-left'><a href='https://openreview.net/forum?id=eMudnJsb1T5'> Sampling with Mirrored Stein Operators</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 6, 10, 8</td></tr><tr><td class='r2'>8, 6, 10, 8</td></tr></table></td><td></td></tr>
+    <tr><td>37</td><td class='td-left'><a href='https://openreview.net/forum?id=PLDOnFoVm4'> Reinforcement Learning under a Multi-agent Predictive State Representation Model: Method and Theory</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>38</td><td class='td-left'><a href='https://openreview.net/forum?id=BrPdX1bDZkQ'> DemoDICE: Offline Imitation Learning with Supplementary Imperfect Demonstrations</a></td><td>7.33</td><td>8.00</td><td data-sort='5.67'>0.67</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>6, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>39</td><td class='td-left'><a href='https://openreview.net/forum?id=uSE03demja'> RISP: Rendering-Invariant State Predictor with Differentiable Simulation and Rendering for Cross-Domain Parameter Estimation</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='3'><table class='sub-table'><tr><td class='r1'>8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8</td></tr></table></td><td></td></tr>
+    <tr><td>40</td><td class='td-left'><a href='https://openreview.net/forum?id=7gWSJrP3opB'> A General Analysis of Example-Selection for Stochastic Gradient Descent</a></td><td>8.00</td><td>8.00</td><td data-sort='5.00'>0.00</td><td data-sort='4'><table class='sub-table'><tr><td class='r1'>8, 8, 8, 8</td></tr><tr><td class='r2'>8, 8, 8, 8</td></tr></table></td><td></td></tr>
+
     <!-- end here -->
     </tbody>
 </table>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script src='web_src/tablesort.min.js'></script>
 <script src='web_src/stats.js'></script>
 
