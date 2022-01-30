@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from tqdm import tqdm
-from funcs import MetaData
+from funcs import DataBase
 import numpy as np
 
-metadata = MetaData('assets/data')
+metadata = DataBase('assets/data')
 avg_scores = metadata.get_all_values_by_key('avg_score')
 sorted_idxs = np.argsort(avg_scores)[::-1]
 

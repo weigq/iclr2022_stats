@@ -195,6 +195,10 @@ td:not(.td-left) {
 	text-align: center;
 }
 
+td:is(.td-left) {
+	padding-left: 4px;
+}
+
 td:is(.total) {
 	background-color: #dedede;
 }
@@ -244,6 +248,13 @@ table:is(.sub-table) {
 	width: 100%;
 }
 
+table:is(.sub-table) {
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0;
+	width: 100%;
+}
+
 table:is(.sub-table) tr {
 	height: 0;
 }
@@ -253,14 +264,15 @@ table:is(.sub-table) td {
 }
 
 table:is(.sub-table) td:is(.r1) {
-	background-color: rgba(255, 158, 120, 0.19);
-	padding-left: 32px;
+	/*background-color: rgba(255, 158, 120, 0.19);*/
+	padding-left: 16px;
 	text-align: left;
+	border-bottom: 1px solid rgba(215, 215, 215, 0.5);
 }
 
 table:is(.sub-table) td:is(.r2) {
-	background-color: rgba(252, 128, 77, 0.4);
-	padding-left: 32px;
+	/*background-color: rgba(252, 128, 77, 0.4);*/
+	padding-left: 16px;
 	text-align: left;
 }
 
@@ -389,4 +401,8 @@ a img:hover {
 #myBtn:hover {
 	background-color: var(--my-blue); /* Add a dark-grey background on hover */
 	cursor: pointer;
+}
+
+.r1 {
+	color: rgba(47, 58, 73, 0.61);
 }
