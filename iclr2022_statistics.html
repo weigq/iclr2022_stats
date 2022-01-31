@@ -21,7 +21,19 @@
 
 <div class="menu">
     <div class="sub-menu">
-        <a href="iclr2022_submissions.html">All Submissions</a>
+        <a href="iclr2022_submissions.html">All Accepted</a>
+    </div>
+    <div class="sub-menu">
+        <a href="iclr2022_submissions_oral.html">Oral</a>
+    </div>
+    <div class="sub-menu">
+        <a href="iclr2022_submissions_spotlight.html">Spotlight</a>
+    </div>
+    <div class="sub-menu">
+        <a href="iclr2022_submissions_poster.html">Poster</a>
+    </div>
+    <div class="sub-menu">
+        <a href="iclr2022_submissions_reject.html">Rejected</a>
     </div>
     <div class="sub-menu act">
         <a href="iclr2022_statistics.html">Statistics</a>
@@ -30,6 +42,10 @@
 
 <div class="note">
     <ul>
+        <li>
+            All withdrawn submissions are ignored for the following statistics data.
+        </li>
+        <hr><br>
         <li>
             <a href="images/stats_bar_0130.png">Rating distribution</a> (after final decision).<br>
             <a href="images/stats_bar_0130.png"><img src="images/stats_bar_0130.png" width="700px"></a>
@@ -43,22 +59,39 @@
         <li>
             <a href="images/stats_bar.png">Rating distribution @11/09/2021</a>.
         </li>
-        <hr>
+        <br>
+        <hr><br>
         <li>
             <span class="bg">3328</span>: total submissions @11/09/2021.
         </li>
         <li>
-            <span class="bg">1095</span>: final accept submissions @01/30/2022.<br>
+            <span class="bg">1095</span>: final accepted submissions @01/30/2022.<br>
+            &nbsp;&nbsp;&nbsp;<span class="bg">1580</span>: final rejected submissions @01/30/2022.<br>
             <table class="main-table">
-                <tr><td>Decision</td><td>#</td><td>rating avg.</td><td>rating max</td><td>rating min</td></tr>
-                <tr><td class="oral">Oral</td><td>54</td><td>7.81</td><td>9.00</td><td>5.00</td></tr>
-                <tr><td class="spotlight">Spotlight</td><td>176</td><td>7.35</td><td>8.67</td><td>5.67</td></tr>
-                <tr><td class="poster">Poster</td><td>865</td><td>6.41</td><td>8.00</td><td>4.50</td></tr>
-                <tr><td class="reject" style="background-color: rgba(206,214,255,0.77)">Reject</td><td>1580</td><td>4.71</td><td>7.50</td><td>1.00</td></tr>
-                <tr><td class="total">Total</td><td>2675</td><td>5.49</td><td>9.00</td><td>1.00</td></tr>
-            </table>
+                <tr><td>Decision</td><td>#</td><td>rating avg.</td><td>rating max</td><td>rating min</td><td>ΔR avg.</td></tr>
+                <tr><td class="oral">Oral</td><td  class="oral">54</td><td  class="oral">7.81</td><td  class="oral">9.00</td><td  class="oral">5.00</td><td  class="oral">0.79</td></tr>
+                <tr><td class="spotlight">Spotlight</td><td class="spotlight">176</td><td class="spotlight">7.35</td><td class="spotlight">8.67</td><td class="spotlight">5.67</td><td class="spotlight">0.77</td></tr>
+                <tr><td class="poster">Poster</td><td class="poster">865</td><td class="poster">6.41</td><td class="poster">8.00</td><td class="poster">4.50</td><td class="poster">0.59</td></tr>
+                <tr style="background-color: rgba(227,227,227,0.3); border-bottom: 4px solid #d5d5d5"><td>Accepted</td><td>1095</td><td>6.63</td><td>9.00</td><td>4.50</td><td>0.63</td></tr>
+                <tr><td class="reject" style="background-color: rgba(206,214,255,0.22)">Reject</td><td style="background-color: rgba(206,214,255,0.22)">1580</td><td style="background-color: rgba(206,214,255,0.22)">4.71</td><td style="background-color: rgba(206,214,255,0.22)">7.50</td><td style="background-color: rgba(206,214,255,0.22)">1.00</td><td style="background-color: rgba(206,214,255,0.22)">0.17</td></tr>
+                <tr style="background-color: rgba(227,227,227,0.3)"><td>Total</td><td>2675</td><td>5.49</td><td>9.00</td><td>1.00</td><td>0.36</td></tr>
+            </table><br>
         </li>
-
+        <hr><br>
+        <li>
+            In the final <span class="bg">accepted</span> submissions (1095 in total):<br>
+            &nbsp;&nbsp;&nbsp;<span class="bg">843</span> submissions' ratings are increased.<br>
+            &nbsp;&nbsp;&nbsp;<span class="bg">23</span> submissions' ratings are dropped.<br>
+            &nbsp;&nbsp;&nbsp;<a href="https://openreview.net/forum?id=CAjxVodl_v">This one</a> got the largest rating increase (<span class="bg">+3.33</span>) from <span class="bg">(3, 5)</span> to <span class="bg">(8, 8, 6)</span>.<br>
+            &nbsp;&nbsp;&nbsp;<a href="https://openreview.net/forum?id=USIgIY6TNDe">This one</a> got the largest rating drop (<span class="bg">-1.20</span>) from <span class="bg">(8, 6)</span> to <span class="bg">(6, 6, 6, 6, 5)</span>.
+            <br>
+        </li><br>
+        <hr><br>
+        <li>
+            In the final <span class="bg">accepted + rejected</span> submissions (2675 in total):<br>
+            &nbsp;&nbsp;&nbsp;<span class="bg">1387</span> submissions' ratings are increased.<br>
+            &nbsp;&nbsp;&nbsp;<span class="bg">139</span> submissions' ratings are dropped.<br>
+        </li>
     </ul>
 </div>
 
